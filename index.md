@@ -55,5 +55,5 @@ This site was heavily influenced by the geniuses behind [Motherfucking Website](
 
 Although this site has been created as a bit of fun, the message behind it is a serious one. Don't feed the algorithms [the web is already fucked](https://thewebisfucked.com), let's not make it any worse.
 
-Own your content; **start a fucking blog.**
+Own your content; **start a fucking blog farpado.**
 
