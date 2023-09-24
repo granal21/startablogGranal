@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <hr>
+<h2 id="layout-defaulttitle-fucking-blogdescription-this-is-a-fucking-blog-page-enjoy-itpermalink-fucking-blog">layout: default
+title: Fucking Blog
+description: This is a fucking blog page. Enjoy it.
+permalink: /fucking-blog/</h2>
+<p>{% for post in site.posts %}</p>
+  <div class="blog-item">
+    <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+    <p class="meta"><i>{{ post.description }}</i></p>
+    <p class="meta">{{ post.date | date_to_string }}</p>
+  </div>
+{% endfor %}
+
+        
+        
+    </body>
+    </html>
